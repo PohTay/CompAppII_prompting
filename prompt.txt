@@ -11,3 +11,5 @@ when play blackjack have bust too.
 so, I want a have sound when you click
 
 4: can you make a sound
+
+That's it all i use.
