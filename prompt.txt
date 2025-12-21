@@ -1,0 +1,13 @@
+1: I want you make web page play black jack use HTML/CSS/JS
+
+and then I want function count W/L.
+
+2: and function count W/L
+
+when play blackjack have bust too.
+
+3: add function count bust too.
+
+so, I want a have sound when you click
+
+4: can you make a sound

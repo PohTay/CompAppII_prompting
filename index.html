@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack - Dynamic Sprite Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="author-credit">By SIWAT PTHIMAKUL 6704053612244</div>
+
+<div id="game-table">
+    <!-- The Topper -->
+    <div class="game-title">Blackjack</div>
+
+    <div id="stats-board">
+        <div>WINS: <span id="win-count">0</span></div>
+        <div>LOSSES: <span id="loss-count">0</span></div>
+        <div style="color: #ff6666">BUSTS: <span id="bust-count">0</span></div>
+    </div>
+
+    <div class="dealer-area">
+        <div id="dealer-score" class="score-bubble">Dealer: 0</div>
+        <div id="dealer-hand" class="hand"></div>
+    </div>
+
+    <div id="message-overlay">
+        <h1 id="message-text">Blackjack!</h1>
+    </div>
+
+    <div class="player-area">
+        <div id="player-score" class="score-bubble">Player: 0</div>
+        <div id="player-hand" class="hand"></div>
+    </div>
+
+    <div class="controls">
+        <button id="btn-hit" class="btn-hit" onclick="playerHit()">Hit</button>
+        <button id="btn-stand" class="btn-stand" onclick="playerStand()">Stand</button>
+        <button id="btn-new" class="btn-new" onclick="startNewGame()" disabled>New Game</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
