@@ -1,2 +1,2 @@
 # CompAppII_prompting
-Web page
+Use prompting to generate web page (HTML + CSS + JS)
